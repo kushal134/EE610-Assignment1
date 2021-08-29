@@ -25,7 +25,7 @@ def select_file():
     )       
     filename = fd.askopenfilename(                  #to open a file
         title = "Open a file",                      #title
-        initialdir='/C:/Users/HP/Desktop/Kushal/Semester5', #inital director - can be anything 
+        initialdir='',                              #inital directory - can be anything on choice
         filetypes=file_types                        #only the above mentioned file types are allowed
     )
     
